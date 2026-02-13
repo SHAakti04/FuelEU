@@ -30,7 +30,7 @@ This project demonstrates:
 ---
 
 ## 🧠 Architecture Overview
-
+```
 src/
 ├── core/
 │ ├── domain/ # Pure business entities
@@ -43,7 +43,7 @@ src/
 │ ├── db/ # Prisma client
 │ └── server/ # App bootstrap
 ├── shared/ # Constants & utilities
-
+```
 
 **Key rule followed:**  
 > Core logic has **zero dependency** on frameworks, databases, or UI.
